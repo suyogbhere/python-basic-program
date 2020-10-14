@@ -1,0 +1,17 @@
+s=input ("enter the string:")
+d=l=upc=lc=0
+for i in s:
+if i.isalpha():
+    l=l+1
+elif i.isdigit():
+    d=d+1
+elif i.islower():
+    lc=lc+1
+elif i.isupper():
+    upc=upc+1
+else:
+    pass
+print ("alphabet:",l)
+print ("digit:",d)
+print ("lowercase:",lc)
+print ("uppercase:",upc)
